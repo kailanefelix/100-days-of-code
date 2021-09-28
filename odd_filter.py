@@ -10,7 +10,7 @@ print(a[odd_filter]) # it works!
 
 ## replace odd items
 
-# a[odd_filter] = 0 # it works!
+a[odd_filter] = 0 # it works!
 
 print(a)
 

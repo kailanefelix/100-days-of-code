@@ -9,7 +9,8 @@ print(M[::len(M)-1,::])
 
 # Task 2: Print all elements less than 10
 
-print(M[M < 10]) # the M < 10 instruction returns one matrix of booleans with the condition applied to every element of the array 
+print(M[M < 10]) # the M < 10 instruction returns one matrix of booleans
+# with the condition applied to every element of the array
 
 # Task 3: Print each even row
 
@@ -23,7 +24,8 @@ print(M[::,1::2])
 
 print(M[::2,1::2])
 
-# Task 6: Print all elements from the following matrix with a pair of even indices
+# Task 6: Print all elements from the following matrix
+# with a pair of even indices
 
 M1 = 100*np.random.rand(5,7).round(2)
 

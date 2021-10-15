@@ -11,7 +11,7 @@ print(a[odd_filter])
 a[odd_filter] = 0 # it works!
 print(a)
 
-## replace odd items without affecting the original array 
+## replace odd items without affecting the original array
 
 # first way: copy the array and add the filter
 
